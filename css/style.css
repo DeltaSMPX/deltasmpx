@@ -1,0 +1,377 @@
+#background {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: auto;
+    background: url(images/home.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ul {
+    display: inline;
+    position: fixed;
+    z-index: 1;
+    list-style-type: none;
+    margin: 1.3%;
+    padding: 0 0 0 15%;
+    top: 0.1%;
+}
+
+li {
+    display: inline;
+    padding: 5 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    margin-left: 2.8vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbartext {
+    font-size: 2.5vh;
+}
+
+.navbar-background {
+    position: fixed;
+    z-index: 1;
+    background: #000000;
+    padding: 2%;
+    width: 79.5%;
+    left: 16.5%;
+}
+
+.navbar-image img {
+    position: fixed;
+    z-index: 1;
+    width: 16.8%;
+    top: -0.4%;
+    left: 0%;
+}
+
+.deltatitle img {
+    position: absolute;
+    top: 5%;
+    left: 12%;
+    width: 75%;
+}
+
+
+/* .deltaxtitle img {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 6%;
+} */
+
+.hr {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    left: 35%;
+    top: 55%;
+    /* border: 1vh solid #f8f8f8; */
+}
+
+.button {
+    position: absolute;
+    background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
+    border: none;
+    padding: 0.9% 1.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* -webkit-transition-duration: 0.4s; */
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 1vh;
+    left: 38%;
+    font-family: Inter;
+    top: 60%;
+    transition: 0.4s;
+}
+
+.buttontwo {
+    position: absolute;
+    background-color: #ffffff00;
+    color: hsl(0, 0%, 100%);
+    border: #ffffff 1px solid;
+    padding: 0.9% 1.5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vh;
+    font-family: Inter;
+    margin: 4px 2px;
+    cursor: pointer;
+    /* -webkit-transition-duration: 0.4s; */
+    /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 1vh;
+    left: 52%;
+    top: 60%;
+    transition: 0.4s;
+}
+
+.buttontwo:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+/* --------------------------------------------About Page Css-------------------------------- */
+
+#a-background {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: auto;
+    background: url(images/about.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.text {
+    position: absolute;
+    top: 22%;
+    color: #ffffff;
+    left: 13%;
+    font-size: 2.3vh;
+    font-family: Inter;
+    text-align: center;
+}
+
+.text p {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.charabout img {
+    position: absolute;
+    width: 20%;
+    top: 39%;
+}
+
+.charabout2 img {
+    position: absolute;
+    width: 20%;
+    top: 39%;
+    left: 75%;
+}
+
+.text-title {
+    font-size: 2.7vh;
+}
+
+
+/* --------------------------------------------Characters Page Css-------------------------------- */
+
+#c-background {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: auto;
+    background: url(images/char.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.char1 img {
+    position: absolute;
+    width: 5%;
+    top: 20%;
+    width: 5%;
+    left: 5%;
+}
+
+.char2 img {
+    position: absolute;
+    width: 5%;
+    top: 45%;
+    width: 5%;
+    left: 5%;
+}
+
+.char3 img {
+    position: absolute;
+    width: 5%;
+    top: 75%;
+    width: 5%;
+    left: 5%;
+}
+
+.char4 img {
+    position: absolute;
+    top: 20%;
+    width: 5%;
+    left: 30%;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.char5 img {
+    position: absolute;
+    top: 45%;
+    width: 3%;
+    left: 31%;
+}
+
+.char6 img {
+    position: absolute;
+    top: 75%;
+    width: 3%;
+    left: 31%;
+}
+
+.char7 img {
+    position: absolute;
+    top: 20%;
+    width: 3%;
+    left: 55%;
+}
+
+.char8 img {
+    position: absolute;
+    top: 45%;
+    width: 3%;
+    left: 55%;
+}
+
+.char9 img {
+    position: absolute;
+    top: 75%;
+    width: 3%;
+    left: 55%;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.char10 img {
+    position: absolute;
+    top: 20%;
+    width: 3%;
+    left: 78%;
+}
+
+.char11 img {
+    position: absolute;
+    top: 45%;
+    width: 3%;
+    left: 78%;
+}
+
+.char12 img {
+    position: absolute;
+    top: 75%;
+    width: 3%;
+    left: 78%;
+}
+
+
+/* ------------------------------------------------------------------------------------------ */
+
+.char-text-all {
+    color: #ffffff;
+    font-size: 1.7vh;
+    font-family: Inter;
+}
+
+.char1-text {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.char2-text {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.char3-text {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+
+.char4-text {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+
+/* --------------------------------------------Contact Us Css-------------------------------- */
+
+#u-bg {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: auto;
+    background: url(images/contact.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#form {
+    position: absolute;
+    padding-top: 5%;
+    left: 40%;
+}
+
+#form p {
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 150%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fffffffd;
+}
+
+.btnforcontact {
+    background-color: #ffffff;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 1vh;
+    color: rgb(0, 0, 0);
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 100%;
+    left: 60%;
+}

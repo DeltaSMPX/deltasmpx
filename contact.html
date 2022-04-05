@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Delta SMP X - Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn.discordapp.com/attachments/916335939960307804/916341994584965180/yo.png">
+</head>
+
+<body id="u-bg">
+    <div class="navbar-image">
+        <img src="css/images/navbarimage.png" alt="">
+    </div>
+    <div class="navbar-background"></div>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html" class="navbartext">Home</a></li>
+            <li><a href="about.html" class="navbartext">About Us</a></li>
+            <li><a href="characters.html" class="navbartext">Characters</a></li>
+            <li><a href="contact.html" class="navbartext">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="form">
+        <p>Discord Username</p>
+        <textarea id="fname" placeholder="Example : Name #0001" type="text"></textarea>
+        <p>Twitch Username</p>
+        <textarea id="lname" placeholder="Insert Twitch Username Here" type="text"></textarea>
+        <p>Are you fine with being on stream?</p>
+        <textarea id="dis" placeholder="Are you fine with being on stream?" type="text"></textarea>
+        <p>Do you use a mic?</p>
+        <textarea id="email" placeholder="Do you use a mic?" type="text"></textarea>
+        <p>Are you fluent in English?</p>
+        <textarea id="steam" placeholder="Are you fluent in English?" type="text"></textarea>
+        <p>How many hours are you active a day?</p>
+        <textarea id="date" placeholder="How many hours are you active a day?" type="text"></textarea>
+        <p>Are you streaming/want to start?</p>
+        <textarea id="why" placeholder="Are you streaming/want to start?" type="text"></textarea>
+        <button class="btnforcontact" onclick="webhookSend(),myFunction()">Send</button>
+    </div>
+
+    <script src="js/main.js" type="text/javascript "></script>
+</body>
+
+<script src="js/main.js" type="text/javascript"></script>
+
+</html>
